@@ -16,7 +16,7 @@ One of the required components is MOF Schema File, for example.
 	  [read] string ID;
 	};
 ### That is too much typing for me
-So I created a DSL in PowerShell to do it for me. This generates the above MOF Schema.
+So I created a "DSL" in PowerShell to do it for me. This generates the above MOF Schema.
 
 	New-MOFSchema WebSite {
 	
