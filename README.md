@@ -37,3 +37,5 @@ So I created a "DSL" in PowerShell to do it for me. This generates the above MOF
 	
 	    Add-ReadProperty string ID
 	}
+
+### Next
