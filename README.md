@@ -1,4 +1,4 @@
-# Generate MOF Schemas From PowerShell
+## Generate MOF Schemas From PowerShell
 PowerShell v4 let's you build [Custom Desired State Configuration Resources](http://technet.microsoft.com/en-us/library/dn249927.aspx)
 
 One of the required components is MOF Schema File, for example.
@@ -15,7 +15,7 @@ One of the required components is MOF Schema File, for example.
 	  [write] string ApplicationPool;
 	  [read] string ID;
 	};
-## That is too much typing for me
+### That is too much typing for me
 So I created a DSL in PowerShell to do it for me. This generates the above MOF Schema.
 
 	New-MOFSchema WebSite {
