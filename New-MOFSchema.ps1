@@ -6,11 +6,7 @@ function New-MOFSchema {
         [ScriptBlock]$sb
     )
 
-    $script:MOFOutput = @()
-#    $script:keys            = @()
-#    $script:writeProperties = @()
-#    $script:writeValueMap   = @()
-#    $script:readProperties  = @()    
+    $script:MOFOutput = @()  
 
     function Set-Version {
         param(
